@@ -6,4 +6,4 @@ Easy to use and 100% customizable.
 [Demo](https://bytescript.net/currency/)
 
 # Features
-![Features](https://i.hizliresim.com/p5WAnJ.png)
+![Features](https://raw.githubusercontent.com/bytescripting/cryptocurrency-widget/master/features.png)
