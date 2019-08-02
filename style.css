@@ -1,0 +1,277 @@
+/* PT Sans Font import */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+
+/*
+###
+##
+# Currency Widget Header Version CSS
+# @ = _curency (prefix)
+##
+###
+*/
+/* @HeaderVersion = Header version container */
+body {
+  margin-bottom: 50px;
+}
+
+.container {
+  position: relative!important;
+  width: 100%;
+  height: 100%;
+}
+
+._currencyHeaderVersion {
+  position: relative;
+  width: 100%;
+  min-height: 93.4px;
+  padding: 3px;
+  display: flex!important;
+  overflow: auto;
+}
+
+._currencyHeaderVersion._sidebar {
+  flex-direction: column;
+  max-height: 560px;
+}
+
+._currencyHeaderVersion::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+._currencyHeaderVersion::-webkit-scrollbar
+{
+	width: 10px;
+  height: 10px;
+	background-color: #F5F5F5;
+}
+
+._currencyHeaderVersion::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #ddd;
+}
+
+.focusFilter:focus {
+  outline: unset!important;
+  border: unset!important;
+  background: unset!important;
+}
+
+.solaGit {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  height: 20px!important;
+}
+
+.sagaGit {
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+  height: 20px!important;
+}
+/* @Item = Container item */
+._currencyItem {
+  /* user-select: none; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* cursor: pointer; */
+  transition: .2s ease all;
+
+  padding: 12px 14px 14px;
+  min-width: 210px;
+  /* height: 100%; */
+  border: 1px solid #e4e2e5;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+._currencyHeaderVersion._sidebar ._currencyItem {
+  min-width: 260px;
+  max-width: 260px;
+  margin-top: 4px;
+}
+
+._currencyItem:hover {
+  background: #ececec;
+}
+
+.item-container:active {
+  outline: unset!important;
+  border: unset!important;
+  background: unset!important;
+}
+
+.item-container:focus {
+  outline: unset!important;
+  border: unset!important;
+  background: unset!important;
+}
+
+._currencyItem:focus {
+  outline: unset!important;
+  border: unset!important;
+  background: unset!important;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* cursor: pointer; */
+  transition: .2s ease all;
+}
+
+._currencyItem > img {
+  margin-top: -2px;
+  margin-right: 5px;
+}
+
+.item-icon svg {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin-right: 4px;
+  margin-left: -10px!important;
+  margin-top: 3px;
+  width: 30px;
+  height: 20px;
+  /* fill: #e2e2e2; */
+}
+.item-icon svg.up {
+  fill: #48bd7f;
+  transform: rotate(270deg);
+}
+.item-icon svg.down {
+  margin-right: 8px;
+  fill: #c85151;
+  transform: rotate(90deg);
+}
+._currencyItem .price {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: space-between;
+}
+
+._currencyItem .price > .buy > span {
+  font-family: 'Helvetica Neue', sans-serif;
+  display: flex;
+  color: #9b9b9b;
+  font-weight: 400;
+  text-align: left;
+  font-size: 11px;
+}
+
+._currencyItem .price > .sell > span {
+  font-family: 'Helvetica Neue', sans-serif;
+  display: flex;
+  color: #9b9b9b;
+  font-weight: 400;
+  text-align: left;
+  font-size: 11px;
+}
+
+._currencyItem .price > .sell > label {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #333;
+}
+
+._currencyItem .price > .buy > label {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #333;
+}
+/* @Item > span = Currency symbol */
+._currencyItem > span {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  color: #315eb8;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+
+.sidebar-version {
+  float: right;
+  width: 20%;
+  overflow: auto;
+  max-height: 426px;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+}
+
+.sidebar-version::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.sidebar-version::-webkit-scrollbar
+{
+	width: 10px;
+  height: 10px;
+	background-color: #F5F5F5;
+}
+
+.sidebar-version::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #ddd;
+}
+
+.sidebar-version ul {
+  border-radius: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-version ul li {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  /* cursor: pointer; */
+  padding: 4px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.sidebar-version ul li:hover {
+  background: #ddd;
+}
+
+.sidebar-version ul li > div:first-child {
+
+}
+
+.sidebar-version ul li > div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #333;
+}
+
+.sidebar-version ul li > div:first-child > span {
+  color: #315eb8;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.sidebar-version ul li:last-child {
+  border-bottom: unset;
+}
