@@ -1,5 +1,4 @@
-# CryptoCurrency-widget
-PHP Crypto Currency prices widget.
+# PHP Crypto Currency Prices Widget
 
 Easy to use and 100% customizable.
 
